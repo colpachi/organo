@@ -8,6 +8,7 @@ function App() {
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
     console.log(colaborador)
+    colaboradores.push(colaborador)
   }
 
   return (
